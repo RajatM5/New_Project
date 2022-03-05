@@ -40,6 +40,7 @@ public class My_fruit_list_adapter extends RecyclerView.Adapter<My_fruit_list_ad
         holder.afl_iv.setImageResource(myListDatan.getImgId());
         holder.afl_qt.setText(myListDatan.getQuantity());
         holder.buttonA.setOnClickListener(new View.OnClickListener() {
+//            bhbhbhbhbjbhbhbjhb
             @Override
             public void onClick(View v) {
                 holder.buttonA.setVisibility(View.GONE);
