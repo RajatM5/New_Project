@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Veggies</string>
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+    <string name="disc">The image (s) shown are representativee of the actual product.While every effort has been made to maintain accurate product-related information,it is recommended to read product labels,batch and manufacturing/packing details along with warnings and directions before using or consuming the product.It is recommended not to solely rely on the information presented.</string>
+
+</resources>

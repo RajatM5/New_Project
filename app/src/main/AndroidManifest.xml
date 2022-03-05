@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.myapplication.veggies">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        tools:replace="icon, label"
+        android:allowBackup="true"
+        android:icon="@drawable/logo3"
+        android:label="Veggies"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Veggies">
+        <activity
+            android:name=".Activity.Splash_mainactivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activity.Login"/>
+        <activity android:name=".Activity.Otp"/>
+        <activity android:name=".Activity.Registration"/>
+        <activity android:name=".Activity.Dashboard_activity"/>
+        <activity android:name=".Activity.Account"/>
+        <activity android:name=".Activity.Support"/>
+        <activity android:name=".Activity.Fruits"/>
+        <activity android:name=".Activity.Profile"/>
+        <activity android:name=".Activity.ShopSubCat"/>
+        <activity android:name=".Activity.Description"/>
+        <activity android:name=".Activity.Cart"/>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts"/>
+    </application>
+
+</manifest>
